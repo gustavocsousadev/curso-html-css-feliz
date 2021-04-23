@@ -88,18 +88,6 @@ a#butao:hover{
 
 }
 
-/*
-
-button{
-
-width: 170px;
-height: 60px;
-left: 1250px;
-top: 10px;
-background: #62C370;
-box-shadow: 5px 5px 0px #000000;
-}
-*/
 
 nav li a {
     transition:all 0.3s ease 0s ;
