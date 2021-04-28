@@ -2,7 +2,6 @@ header{
     background-color: #7391C8;
     border-bottom: solid 10px #000;
     margin-bottom: 10px;
-    position: fixed;
     width: 100%;
     
 
@@ -96,3 +95,9 @@ nav li a:hover {
     color:#000;
     
 }
+
+section{
+    display: inline-block;
+}
+
+
