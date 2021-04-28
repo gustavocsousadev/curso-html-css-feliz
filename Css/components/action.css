@@ -1,0 +1,15 @@
+.action {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.action:before{
+    content: "";
+    background: #52688F;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

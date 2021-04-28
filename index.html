@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,32 +13,34 @@
     <link rel="stylesheet" href="Css/components/subtitle.css">
     <link rel="stylesheet" href="Css/components/title.css">
     <link rel="stylesheet" href="Css/components/box.css">
+    <link rel="stylesheet" href="Css/components/button.css">
+    <link rel="stylesheet" href="Css/components/action.css">
+    <link rel="stylesheet" href="Css/components/header.css">
+    <link rel="stylesheet" href="Css/components/logo.css">
     <title>Html feliz</title>
 </head>
 <body>
-    <header>
-        <img id="logo" src="gcslogo.png" alt="marcoboeno_logo">
-        <nav>  <!--Tag de navegacao-->
-            <ul> <!--Lista com links nao ordenada-->
-                <li><a href="#skills_section">Skills</a></li>
-                <li><a href="#skills_section">Projects</a></li>
-                <li><a href="#skills_section">About</a></li>
-                <li><a href="#skills_section">Contact</a></li>
-                <li><a id="butao" href="#" get="#">Dowload cv</a></li>
+    <header class="header">
+        <img class="logo" src="gcslogo.png" alt="marcoboeno_logo">
+        <nav class="navigation">  
+            <ul>  
+                <li><a class="action" href="#skills_section" >Skills</a></li>
+                <li><a class="action" href="#skills_section">Projects</a></li>
+                <li><a class="action" href="#skills_section">About</a></li>
+                <li><a class="action" href="#skills_section">Contact</a></li>
+                <li><a id="buton" class="butao" href="#" get="#">Dowload cv</a></li>
             </ul>
             <div id="ultima_linha"></div>
         </nav>
     </header>
-    <section class="img_bruno">
+    <section class="section">
         <div class="box">
-        <h1>Gustavo C Sousa</h1>
-
-        <h2>FrontEnd Developer</h2>
+        <h1 class="title">Gustavo C Sousa</h1>
+        <h2 class="subtitle">FrontEnd Developer</h2>
         </div>
-        <!--<a id="butao" href="#" get="#">Dowload cv</a>
-        <a id="butao" href="#" get="#">Dowload cv</a>
-        <img src="" alt=""> -->
-        <img src="" alt="">
+
+        <a class="butao" href="#" get="#">Dowload cv</a>
+        <a class="butao" href="#" get="#">Contact</a>
 
     </section>
 </body>
