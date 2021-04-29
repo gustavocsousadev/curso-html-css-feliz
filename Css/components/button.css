@@ -13,6 +13,8 @@
     line-height: 60px;
     margin-top: 17px;
     border-radius: 4px;
+    flex-direction: column;
+    
 }
 
 #buton:hover{
@@ -21,6 +23,7 @@
     color: rgb(255, 255, 255);
     box-shadow: 10px 10px 0px #000000;
     cursor: progress;
+    
 
 }
 
