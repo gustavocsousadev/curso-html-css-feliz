@@ -1,8 +1,8 @@
 .header{
         background-color: #7391C8;
         border-bottom: solid 10px #000;
-        margin-bottom: 10px;
         width: 100%;   
+        display:inline-block;
 }
 
 .header .navigation{
