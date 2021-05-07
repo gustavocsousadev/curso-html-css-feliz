@@ -1,0 +1,14 @@
+.section2{
+    background-color: #52688F;
+    border-top: 5px solid #7C5E99;
+    border-bottom: 5px solid #7C5E99;
+    height: 1000px;
+    
+}
+
+.section2 .wrapper2 {
+    font-family: Fira Code, monospace;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
