@@ -21,9 +21,7 @@
     flex-direction: row;
     width: auto;
     width: 400px;
-    
-
-
+ 
 }
 
 .ico_title{
@@ -46,4 +44,20 @@
      flex: 1;
  }
 
- 
+ .skill{
+    display: flex;
+}
+
+.title._title{
+    color: bisque;
+}
+
+.skill .ico{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.skill .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
